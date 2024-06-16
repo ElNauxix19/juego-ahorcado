@@ -46,10 +46,15 @@ Funcionalidad del Juego del Ahorcado
   Ejemplo de Flujo de Juego
   
 Inicio del Juego: El jugador presiona "Iniciar".
+
 Selección de Palabra: El juego selecciona una palabra oculta y la muestra como guiones bajos.
+
 Adivinanza de Letras: El jugador selecciona una letra.
+
 Si la letra está en la palabra, se revela en su posición correcta.
+
 Si la letra no está en la palabra, se añade a la lista de letras incorrectas y se dibuja una parte del ahorcado.
+
 Repetición del Proceso: El jugador continúa adivinando letras.
 
 Fin del Juego:
