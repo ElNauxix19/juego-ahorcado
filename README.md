@@ -44,6 +44,7 @@ Funcionalidad del Juego del Ahorcado
     Botón para reiniciar el juego con una nueva palabra.
 
   Ejemplo de Flujo de Juego
+  
 Inicio del Juego: El jugador presiona "Iniciar".
 Selección de Palabra: El juego selecciona una palabra oculta y la muestra como guiones bajos.
 Adivinanza de Letras: El jugador selecciona una letra.
