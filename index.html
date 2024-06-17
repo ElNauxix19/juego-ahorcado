@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego ahorcado - Disfruta de una increible partida de ahorcado con tus amigos!</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <main>
+    <div id="mainMenu">
+        <h1 style="
+    color: white;">Ahorcado</h1>
+        <button id="play-btn" onclick=initGame()>Jugar</button>
+    </div>
+    <div id="game">
+        <p id="word"></p>
+        <canvas id="hangmanCanvas" width="200" height="200"></canvas>
+        <p id="time"></p>
+    </div>
+    <div id="gameOver">
+        <h1>Has perdido</h1>
+        <h2 id="thewordwas">La palabra era:</h2>
+        <button onclick=initGame()>Otro intento</button>
+    </div>
+    </main>
+
+<script src="script.js"></script>
+</body>
+</html>
